@@ -138,6 +138,10 @@ class MemoryCollector(diamond.collector.Collector):
                     value=virtmem_usage.free, oldUnit=units, newUnit=unit)
                 self.publish('SwapFree', value, metric_type='GAUGE')
 
+                value = diamond.convertor.binary.convert(
+                    value=phymem_usage.percent, oldUnit=units, newUnit=unit)
+                self.publish('MemPhysUsagePct', value, metric_type='GAUGE')
+
                 # TODO: We only support one unit node here. Fix it!
                 break
 
