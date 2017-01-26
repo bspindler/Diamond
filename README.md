@@ -1,6 +1,6 @@
 # Netuitive's Diamond
 
-This is [Netuitive's](http://www.netuitive.com/) fork of the [Diamond](https://github.com/python-diamond) project.
+This project has been deprecated in favor of [Netuitive's fork](https://github.com/Netuitive/netuitive-diamond) of the [Diamond](https://github.com/python-diamond) project.
 
-This repos is intended to be used as part of our [agent build](https://github.com/Netuitive/omnibus-netuitive-agent) process.
+This repo is retained here for reference.
 
